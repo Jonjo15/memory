@@ -2,7 +2,7 @@ import React from "react";
 
 function ScoreBoard(props) {
   return (
-    <div>
+    <div className="scoreDiv">
       <h1>Memory Game</h1>
       <div className="scoreBoard">
         <h3>Score: {props.score}</h3>

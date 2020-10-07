@@ -15,6 +15,7 @@ code {
   border: 1px solid black;
   min-height: 360px;
   min-width: 360px;
+  text-align: center;
 }
 .grid {
   display: grid;
@@ -24,4 +25,11 @@ code {
 img {
   max-width: 360px;
   max-height: 360px;
+}
+h2,
+h3 {
+  background-color: rgba(238, 234, 234, 0.6);
+}
+.scoreDiv {
+  text-align: center;
 }
